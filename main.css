@@ -1,0 +1,41 @@
+body{
+    font-family: monospace;
+    background-color: rgb(0, 0, 0);
+}
+ul{
+    font-family: Helvetica;
+}
+li{
+    list-style: circle;
+}
+.list{
+    list-style: square;
+}
+#msg{
+    font-family: monospace;
+}
+.light-theme{
+color: #021c8f;
+background: #000000;
+}
+
+#menu ul{
+margin: 0;
+padding: 0;
+background-color: rgb(0, 0, 0);
+list-style-type: none;
+}
+
+#menu ul li{
+display: inline;
+}
+
+#menu ul li a{
+padding: 5px 5px;
+display:inline-block;
+color:rgb(255, 255, 255);
+}
+
+#menu ul :hover{
+    color: rgb(229, 5, 5);
+}

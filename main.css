@@ -1,7 +1,16 @@
 body{
     font-family: monospace;
-    background-color: rgb(0, 0, 0);
+    background-image: url('img-fundo/1.PNG');
 }
+
+.conteudo{
+    background-color: black;
+}
+
+.comment{
+    background-color: black;
+}
+
 ul{
     font-family: Helvetica;
 }
@@ -13,10 +22,6 @@ li{
 }
 #msg{
     font-family: monospace;
-}
-.light-theme{
-color: #021c8f;
-background: #000000;
 }
 
 #menu ul{
@@ -31,11 +36,7 @@ display: inline;
 }
 
 #menu ul li a{
-padding: 3px 3px;
+padding: 15px 15px;
 display:inline-block;
 color:rgb(255, 255, 255);
-}
-
-#menu ul :hover{
-    color: rgb(229, 5, 5);
 }
